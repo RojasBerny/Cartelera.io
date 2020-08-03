@@ -3,7 +3,8 @@
 
 <head>
     <link rel="icon" href="images/Favicon.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="author" content="Berny Rojas">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script data-ad-client="ca-pub-4546997992814660" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -16,61 +17,34 @@
 <body id="Fondos">
 
 
-    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
-        <!-- Text Logo - Use this if you don't have a graphic logo -->
-        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top" id="Bgr-Nav">
 
-        <!-- Image Logo -->
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/Logo-Cartelera.png" alt="Logo TopPelis"></a> 
         
-        <!-- Mobile Menu Toggle Button -->
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-awesome fas fa-bars"></span>
             <span class="navbar-toggler-awesome fas fa-times"></span>
         </button>
-        <!-- end of mobile menu toggle button -->
+
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#features">FEATURES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#preview">PREVIEW</a>
-                </li>
-
-                <!-- Dropdown Menu -->          
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DETAILS</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
-                        <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
-                    </div>
-                </li>
-                <!-- end of dropdown menu -->
 
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="#contact">CONTACT</a>
+                    <a class="nav-link page-scroll" href="index.html">INICIO <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="b-calif.html">MEJOR CALIFICACION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="estrenos.html">ESTRENOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="cartelera.html">CARTELERA</a>
+                </li>
+
             </ul>
-            <span class="nav-item social-icons">
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-            </span>
         </div>
     </nav>
 
@@ -78,11 +52,10 @@
 
 
     <div class="container" style="border-color: blue; width: 100%; height: 100%;">
+        <br><br>
         <header>
-            <div class="row">
-                <div class="col-12" id="Logo">
-                    <img src="images/Logo-Cartelera.png" alt="Logo TopPelis" width="80px">
-                </div>
+            <div class="row" >
+                
                 <div class="col p-1" id="Caja-1"></div>
                 <div class="col-12" id="Portada">
                     <img src="images/Portada-Cartelera.jpg" alt="TopPelis Portada" width="100%">
@@ -92,14 +65,14 @@
         <main>
             <div class="row">
                 <div class="col-12" id="P-Cart">
-                    <h6 id="L-Blanca">
+                    <h5 id="L-Blanca">
                         <center> Peliculas en Cartelera</center>
-                    </h6>
+                    </h5>
                 </div>
                 <div class="col-2 p-3" id="F-Blanco">
-                    <h6>
+                    <img src="images/Spies in Disguise.jpg" alt="Spies in Disguise" width="100%">
+                    <h6 >
                         <center>
-                            <img src="images/Spies in Disguise.jpg" alt="Spies in Disguise" width="100%">
                             <p>
                                 <small>
                                     <small>
@@ -171,12 +144,12 @@
                 <div class="col-2 p-3" id="F-Blanco">
                     <h6>
                         <center>
-                            <img src="images/Lost Bullet.jpg" alt="Lost Bullet" width="100%">
+                            <img src="images/Justice League.jpg" alt="Lost Bullet" width="100%">
                             <p>
                                 <small>
                                     <small>
                                         <b>
-                                            LOST BULLET
+                                            JUSTICE LEAGUE DARK APOKOLIPS WAR
                                             <br>
                                             SALA 4
                                         </b>
@@ -204,15 +177,15 @@
                         </center>
                     </h6>
                 </div>
-                <div class="col-9">
-                    <h6 id="L-Blanca">
+                <div class="col-9" id="estrenos">
+                    <h5 id="L-Blanca">
                         <center>Próximos Estrenos</center>
-                    </h6>
+                    </h5>
                 </div>
                 <div class="col-3">
-                    <h6 id="L-Blanca">
+                    <h5 id="L-Blanca">
                         <center>Mejor Calificada</center>
-                    </h6>
+                    </h5>
                 </div>
                 <div class="col p-3" id="F-Blanco">
                     <h6>
@@ -235,12 +208,12 @@
                 <div class="col p-3" id="F-Blanco">
                     <h6>
                         <center>
-                            <img src="images/Justice League.jpg" alt="Justice League" width="100%">
+                            <img src="images/Lost Bullet.jpg" alt="Justice League" width="100%">
                             <p>
                                 <small>
                                     <small>
                                         <b>
-                                            JUSTICE LEAGUE: APOCALIPSIS OSCURO
+                                            LOST BULLET
                                             <br>
                                             2 DE JULIO
                                         </b>
@@ -271,14 +244,14 @@
                 <div class="col p-3" id="F-Blanco">
                     <h6>
                         <center>
-                            <img src="images/Bloodshot.jpg" alt="Bloodshot" width="100%">
+                            <img src="images/Justice League.jpg" alt="Bloodshot" width="100%">
                             <p>
                                 <small>
                                     <small>
                                         <b>
-                                            BLOODSHOT
+                                            JUSTICE LEAGUE DARK: APOKOLIPS WAR
                                             <br>
-                                            PUNTUACION 9.5/10
+                                            PUNTUACION 9.8/10
                                         </b>
                                     </small>
                                 </small>
@@ -291,18 +264,18 @@
         <footer>
             <div class="row">
                 <div class="col-6">
-                    <h6 id="L-Blanca">
+                    <h5 id="L-Blanca">
                         <center>
                             Servicios
                         </center>
-                    </h6>
+                    </h5>
                 </div>
                 <div class="col-6" id="Fo-Azul">
-                    <h6 id="L-Blanca">
+                    <h5 id="L-Blanca">
                         <center>
                             Registrate
                         </center>
-                    </h6>
+                    </h5>
                 </div>
                 <div class="col-6 p-2" id="F-Gris">
                     <p id="L-Blanca">
